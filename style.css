@@ -1,5 +1,12 @@
 BODY{
     background-image: linear-gradient(#FC5E55 ,#FA4083);
+    color: white;
+    .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
 }
 .container{
     width: 1024px;
