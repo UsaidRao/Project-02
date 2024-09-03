@@ -38,6 +38,7 @@ main{
 .cards{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1{
@@ -90,12 +91,14 @@ h1{
 
 h2{
     font-size: 2rem;
+    margin-top:20px ;
    
 }
 
 .cards p{
     font-size: 0.85rem;
     line-height: 1.2rem;
+    margin: 10px 30px 20px 20px;
 }
 
 p{
