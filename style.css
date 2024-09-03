@@ -105,3 +105,8 @@ p{
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
 }
+
+.cards i{
+    font-size: 80px;
+    padding-top: 20px;
+}
