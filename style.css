@@ -6,6 +6,8 @@ BODY{
         font-weight: 300;
         font-style: normal;
       }
+      font-size: 1.125rem;
+      
       
 }
 .container{
@@ -75,3 +77,8 @@ main{
     align-items: flex-end;
     
    }
+
+h1{
+    font-size: 3.25rem;
+
+}
