@@ -7,7 +7,7 @@ BODY{
         font-style: normal;
       }
       font-size: 1.125rem;
-      
+
       
 }
 .container{
@@ -63,7 +63,7 @@ main{
 
 .herobox1{
     flex: 2;
-    
+    padding-right: 100px;
 }
 
 
@@ -80,5 +80,6 @@ main{
 
 h1{
     font-size: 3.25rem;
+    line-height: 0.5rem;
 
 }
