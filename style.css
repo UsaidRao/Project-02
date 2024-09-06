@@ -39,6 +39,7 @@ main{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
 }
 
 .card1{
@@ -47,6 +48,8 @@ main{
     background-size: cover;
     min-height: 250px;
     width:30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.616);
+    border-radius: 20px;
     
 }
 
@@ -56,6 +59,8 @@ main{
     background-image: url(data/image-background-card2.jpg);
     min-height: 250px;
     width:30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.596);
+    border-radius: 20px;
 }
 
 .card3{
@@ -64,7 +69,9 @@ main{
     background-image: url(data/image-background-card3.jpg);
     min-height: 250px;
     width:30%;
-}
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.616);
+    border-radius: 20px;
+    }
 
 .card1, .card2, .card3{
     box-sizing:border-box;
@@ -74,6 +81,7 @@ main{
 .herobox1{
     flex: 2;
     padding-right: 100px;
+     border-radius: 20px;
 }
 
 
@@ -125,6 +133,7 @@ a {
     color: #FC5E55;
     padding: 11px 25px;
     border-radius: 100px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.274);
 }
 
 a.mybutton{
