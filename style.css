@@ -124,6 +124,10 @@ a {
     background-color: white;
     color: #FC5E55;
     padding: 11px 25px;
-    
+    border-radius: 100px;
+}
 
+a.mybutton{
+    display: inline-block;
+    margin-top: 20px;
 }
