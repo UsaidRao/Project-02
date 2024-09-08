@@ -1,5 +1,12 @@
-BODY{
+html{
     background-image: linear-gradient(#FC5E55 ,#FA4083);
+}
+
+
+BODY{
+   background-image: url(data/image-lion-background.png) ;
+   background-repeat: no-repeat;
+   background-position: top center;
     color: white;
     .roboto-light {
         font-family: "Roboto", sans-serif;
