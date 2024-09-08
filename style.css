@@ -147,9 +147,7 @@ img{
     border-radius: 20px;
 }
 
-nav a.mybutton{
-    margin-left: 5px;
-}
+
 
 .testimonials{
     display: flex;
@@ -166,4 +164,38 @@ nav a.mybutton{
     box-sizing: border-box;
     margin-top: 50px;
 
+}
+
+.navbutton{
+    background-color: white;
+    
+    padding: 11px 25px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.274);
+    display: inline-block;
+    position: relative;
+}
+
+nav a{
+    color: #FC5E55;
+}
+
+.navbutton:hover{
+    background-color: #b6a2a1cc;
+    transition: 1s;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+.dropdown .navbutton{
+    width: 120px;
 }
