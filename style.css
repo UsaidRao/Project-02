@@ -211,3 +211,7 @@ nav a{
 .dropdown .navbutton{
     width: 120px;
 }
+
+.inputwrapper{
+    margin-bottom: 10px;
+}
